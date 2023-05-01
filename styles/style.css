@@ -262,6 +262,7 @@
 
 .staff__cards {
   padding: 0;
+  margin: 0;
   max-width: 760px;
   margin-top: 68px;
   list-style: none;
@@ -328,12 +329,11 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  max-width: 1080px;
+
   align-self: center;
   display: flex;
+  justify-content: center;
   gap: 40px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 .step {
@@ -388,6 +388,9 @@
 .about__paragraph {
   margin: 0 0 32px;
 }
+.about__paragraph:last-child {
+  margin: 0;
+}
 
 .about__circle {
   background-color: #2f80ed;
@@ -402,7 +405,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -415,11 +418,10 @@
 
 .footer__column_content_hours {
   margin-left: auto;
-  margin-right: 100px;
 }
 
 .footer__column_content_social {
-  text-align: right;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -443,6 +445,8 @@
 }
 
 .footer__column-link {
+  display: flex;
+  justify-content: space-between;
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -458,5 +462,6 @@
 }
 
 .footer__copyright {
+  margin: 0;
   margin-top: 108px;
 }
