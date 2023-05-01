@@ -233,6 +233,9 @@
   padding: 100px 0 140px;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .staff__title {
@@ -303,6 +306,8 @@
 .membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
 }
 
 .membership__title {
@@ -318,10 +323,18 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  max-width: 1080px;
+  align-self: center;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   /* Add styles */
 }
 
 .step {
+  flex-basis: 220px;
+
   /* Add styles */
 }
 
