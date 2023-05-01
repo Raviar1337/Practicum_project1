@@ -28,7 +28,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   list-style: none;
   display: flex;
   margin: 8px 0 0;
@@ -235,8 +234,6 @@
   margin: 0;
 }
 
-/* Final stage project stuff */
-
 .staff {
   padding: 100px 0 140px;
   display: flex;
@@ -262,8 +259,6 @@
   margin: 0;
   color: #fff;
 }
-
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .staff__list {
   padding: 0;
@@ -339,13 +334,10 @@
   gap: 40px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* Add styles */
 }
 
 .step {
   flex-basis: 220px;
-
-  /* Add styles */
 }
 
 .step__title {
@@ -427,6 +419,7 @@
 }
 
 .footer__column_content_social {
+  text-align: right;
 }
 
 .footer__logo {
@@ -435,7 +428,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
